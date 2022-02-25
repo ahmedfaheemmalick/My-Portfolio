@@ -32,4 +32,8 @@ app.post("/api/mail", async (req, res) => {
     });
 })
 
+app.get("/api/test", (req, res) => {
+    res.json({ msg: "Hello World" })
+})
+
 app.listen(process.env.PORT || 4000)
