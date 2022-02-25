@@ -25,15 +25,11 @@ app.post("/api/mail", async (req, res) => {
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
-            res.status(400).json(new Error(error));
+            res.status(400).json(({ msg: "Something went wrong!" }));
         } else {
             res.status(201).json({ msg: "Message sent successfully." })
         }
     });
-})
-
-app.get("/api/test", (req, res) => {
-    res.json({ msg: "Hello World" })
 })
 
 app.listen(process.env.PORT || 4000)
