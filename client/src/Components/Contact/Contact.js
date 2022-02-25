@@ -57,9 +57,9 @@ const Contact = () => {
                     })
                     setTimeout(() => setMsg(""), 2000)
                 })
-                .catch(() => {
+                .catch((err) => {
                     setIsLoading(false)
-                    setMsg("Something went wrong!")
+                    setMsg(err.msg)
                 })
         }
     }
@@ -142,6 +142,7 @@ const Contact = () => {
                             }
                         </div>
                     </div>
+                    {msg}
                     {msg && msg === "Message sent successfully." ?
                         <div className={styles.success_msg}>
                             <span>{msg}</span>
