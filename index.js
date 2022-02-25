@@ -9,8 +9,8 @@ dotenv.config()
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: "ahmedmalik2k20@gmail.com",
-        pass: "glpcrwxemtqbwswy"
+        user: process.env.MY_EMAIL,
+        pass: process.env.MY_PASSWORD
     }
 });
 
@@ -18,7 +18,7 @@ app.use(express.static("./client/build"), cors(), express.json());
 
 app.post("/api/mail", async (req, res) => {
     const mailOptions = {
-        to: "ahmedmalik2k20@gmail.com",
+        to: process.env.MY_EMAIL,
         subject: `${req.body.name} sent a message from ${req.body.email}`,
         text: req.body.message
     };
