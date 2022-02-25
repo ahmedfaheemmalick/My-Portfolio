@@ -142,7 +142,6 @@ const Contact = () => {
                             }
                         </div>
                     </div>
-                    {msg}
                     {msg && msg === "Message sent successfully." ?
                         <div className={styles.success_msg}>
                             <span>{msg}</span>
