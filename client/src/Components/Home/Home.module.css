@@ -1,0 +1,103 @@
+.home {
+  max-width: 100vw;
+  overflow: hidden;
+  background: #161616;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 70% 80%, 0 95%);
+}
+
+.container {
+  display: flex;
+  padding-top: 5rem;
+}
+
+.home_left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.home_left img {
+  width: 400px;
+}
+
+.home_right {
+  color: #fff;
+  flex: 1;
+  margin: 2rem;
+}
+
+.home_right h6 {
+  font-size: 1.6rem;
+  color: #3dcfd3;
+  margin-bottom: 0.6rem;
+}
+
+.home_right h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.home_right h1 span {
+  color: #3dcfd3;
+}
+
+.home_right p {
+  line-height: 1.9;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #3dcfd3;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #3dcfd3;
+  background: transparent;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3dcfd3;
+  color: #161616;
+}
+
+@media (max-width: 1020px) {
+  .home {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 27% 85%, 0 100%);
+    padding: 2rem 0 5rem 0;
+    position: relative;
+  }
+
+  .home_left {
+    margin-top: 1.5rem;
+  }
+
+  .home_left img {
+    width: 260px;
+  }
+
+  .home_right {
+    margin-top: 2rem;
+  }
+
+  .home_right h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .home {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 90%, 0 100%);
+    padding: 2rem 0 6rem 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

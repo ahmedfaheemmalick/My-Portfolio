@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.testimonials {
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.container {
+  overflow: hidden;
+  max-width: 1152px;
+  padding: 4rem 2.5rem;
+  margin: 0 auto;
+}
+
+.head {
+  color: #070606;
+  text-align: center;
+  line-height: 0.5;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.head span {
+  color: #3dcfd3;
+}
+
+.para {
+  color: #898989;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.slide {
+  text-align: center;
+  padding: 0 10rem;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+.slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.slide p {
+  font-family: "Lato" sans-serif;
+  color: #898989;
+  margin-bottom: 1rem;
+}
+.slide span {
+  font-size: 0.8rem;
+  margin-bottom: 3rem;
+}
+
+.slider ul li button::before {
+  background: #898989;
+  color: #898989;
+  width: 10px;
+  height: 7px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0px;
+}
+
+@media (max-width: 1020px) {
+  .slide {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .slide {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
+}

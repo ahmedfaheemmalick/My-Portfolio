@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.freelancing {
+  max-width: 100vw;
+  padding-bottom: 8rem;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../Images/camera.png);
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
+  color: #fff;
+}
+
+.container {
+  max-width: 1152px;
+  padding: 4rem 6rem;
+  margin: 0 auto;
+}
+
+.freelancing h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.freelancing p {
+  margin-bottom: 2rem;
+  font-family: "Lato" sans-serif;
+}
+
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #3dcfd3;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #161616;
+  background: #3dcfd3;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 2px solid #3dcfd3;
+  color: #3dcfd3;
+}

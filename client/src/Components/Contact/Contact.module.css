@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.contact {
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1152px;
+  padding: 4rem 6rem;
+  margin: 0 auto;
+}
+
+.head {
+  color: #070606;
+  text-align: center;
+  line-height: 0.5;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.head span {
+  color: #3dcfd3;
+}
+
+.para {
+  color: #898989;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.card_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 0.8rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: #898989;
+  transition: all ease-in-out 0.3s;
+}
+
+.card a:hover {
+  color: #3dcfd3;
+}
+
+.card h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.card h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #898989;
+}
+
+.input_wrap > div,
+.textarea_wrap > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input_wrap input {
+  padding: 0.8rem 0.5rem;
+  border: 2px solid #f2f2f2;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.textarea_wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.textarea_wrap textarea {
+  height: 140px;
+  padding: 0.5rem;
+  border: 1px solid #f2f2f2;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.textarea_wrap textarea {
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+}
+
+.input_wrap input:focus,
+textarea:focus {
+  border: 2px solid #3dcfd3;
+  border-radius: 3px;
+}
+
+.error_text {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: rgba(255, 0, 0, 1);
+}
+
+.success_msg {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #4bb543;
+}
+
+.btn {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 30px;
+}
+
+.btn button {
+  margin: 0 auto;
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #3dcfd3;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #161616;
+  background: #3dcfd3;
+}
+
+.btn button:hover {
+  background: transparent;
+  border: 2px solid #3dcfd3;
+  color: #3dcfd3;
+}
+
+.lds_ripple {
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds_ripple div {
+  position: absolute;
+  border: 4px solid #3dcfd3;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds_ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1020px) {
+  .container {
+    padding: 4rem 4.5rem;
+    margin: 0 auto;
+  }
+
+  .card_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .card h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .input_wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
+}

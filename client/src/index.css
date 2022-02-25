@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("slick-carousel/slick/slick-theme.css");
+@import url("slick-carousel/slick/slick.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+}
+
+.slick-dots li.slick-active {
+  margin-right: 25px;
+}
+
+.slick-dots .slick-active button::before {
+  background-color: #3dcfd3;
+  width: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3dcfd3;
+  border-radius: 8px;
+}
