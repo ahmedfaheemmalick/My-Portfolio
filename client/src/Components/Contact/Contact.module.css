@@ -128,6 +128,15 @@ textarea:focus {
   color: #4bb543;
 }
 
+.success_msg {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #f00;
+}
+
 .btn {
   display: grid;
   grid-template-columns: 1fr;

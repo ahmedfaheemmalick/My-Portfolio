@@ -142,9 +142,15 @@ const Contact = () => {
                             }
                         </div>
                     </div>
-                    {msg && <div className={styles.success_msg}>
-                        <span>{msg}</span>
-                    </div>}
+                    {msg && msg === "Message sent successfully." ?
+                        <div className={styles.success_msg}>
+                            <span>{msg}</span>
+                        </div>
+                        :
+                        <div className={styles.error_msg}>
+                            <span>{msg}</span>
+                        </div>
+                    }
                     <div className={styles.btn}>
                         {!isLoading ?
                             <button>Send Message</button> :
@@ -155,8 +161,8 @@ const Contact = () => {
                         }
                     </div>
                 </form>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 
