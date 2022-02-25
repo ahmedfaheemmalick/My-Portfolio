@@ -39,7 +39,7 @@ const Contact = () => {
 
         if (values.name.trim() && values.email.trim() && values.message.trim()) {
             setIsLoading(true)
-            fetch(`${process.env.BASE_URL}/mail`, {
+            fetch("/api/mail", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
