@@ -87,7 +87,7 @@
 
   .card {
     margin: 0 auto;
-    width: 300px;
+    width: 370px;
   }
 
   .card_3 {
@@ -123,6 +123,10 @@
 
   .card_wrapper {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    margin-top: -5rem;
   }
 
   .card span {

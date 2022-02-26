@@ -18,6 +18,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.app {
+  overflow: hidden;
+}
+
 .slick-dots li.slick-active {
   margin-right: 25px;
 }

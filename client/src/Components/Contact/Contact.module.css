@@ -214,7 +214,7 @@ textarea:focus {
 
 @media (max-width: 576px) {
   .card_wrapper {
-    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
   }
 
   .input_wrap {
