@@ -21,12 +21,7 @@ const About = () => {
                 <h1 className={styles.head_1}>About <span>Me</span></h1>
                 <h3 className={styles.head_2}>Hello! My self Ahmed Faheem Malick</h3>
                 <p className={styles.para}>
-                    I'm a Full Stack Web Developer with a passion for creating beautiful and intuitive user experiences. I have a strong background in both front-end and back-end development. I have over two years of experience in developing sites using edge cutting technologies like Javascript, Typescript, React, Gatsby, Graphql, Node.js, Express Js, MongoDB, FaunaDB, and more.
-
-                    <br />
-                    <br />
-
-                    Being a self-taught developer and self learner, I'm always ready to learn new tech wave. I'm always looking for new challenges and opportunities to grow my skills.
+                    I'm a Full Stack Web Developer with a passion for creating beautiful and intuitive user experiences. I have over two years of experience in developing sites using edge cutting technologies like Javascript, Typescript, React, Gatsby, Graphql, Node.js, Express Js, MongoDB, FaunaDB, and more.
 
                     <br />
                     <br />
