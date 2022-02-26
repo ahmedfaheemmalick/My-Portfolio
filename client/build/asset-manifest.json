@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b2af66ac.chunk.css",
+    "main.js": "/static/js/main.1d8844a8.chunk.js",
+    "main.js.map": "/static/js/main.1d8844a8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5415940d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5415940d.js.map",
+    "static/css/2.0c6d2c39.chunk.css": "/static/css/2.0c6d2c39.chunk.css",
+    "static/js/2.eab7d56c.chunk.js": "/static/js/2.eab7d56c.chunk.js",
+    "static/js/2.eab7d56c.chunk.js.map": "/static/js/2.eab7d56c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0c6d2c39.chunk.css.map": "/static/css/2.0c6d2c39.chunk.css.map",
+    "static/css/main.b2af66ac.chunk.css.map": "/static/css/main.b2af66ac.chunk.css.map",
+    "static/js/2.eab7d56c.chunk.js.LICENSE.txt": "/static/js/2.eab7d56c.chunk.js.LICENSE.txt",
+    "static/media/Freelancing.module.css": "/static/media/camera.bb509936.png",
+    "static/media/covid-19.bed9ee69.png": "/static/media/covid-19.bed9ee69.png",
+    "static/media/facebook.8db60799.svg": "/static/media/facebook.8db60799.svg",
+    "static/media/github.d5db8398.svg": "/static/media/github.d5db8398.svg",
+    "static/media/hamberger-1.8db086b6.svg": "/static/media/hamberger-1.8db086b6.svg",
+    "static/media/hamberger-2.260b17c1.svg": "/static/media/hamberger-2.260b17c1.svg",
+    "static/media/instagram.7c6bfe46.svg": "/static/media/instagram.7c6bfe46.svg",
+    "static/media/lady.42c2ee82.png": "/static/media/lady.42c2ee82.png",
+    "static/media/link.8d2a9fb3.svg": "/static/media/link.8d2a9fb3.svg",
+    "static/media/linkedin.787aa301.svg": "/static/media/linkedin.787aa301.svg",
+    "static/media/logo.37b94b9c.svg": "/static/media/logo.37b94b9c.svg",
+    "static/media/mail.5c1c1b72.svg": "/static/media/mail.5c1c1b72.svg",
+    "static/media/man-2.653f2213.png": "/static/media/man-2.653f2213.png",
+    "static/media/man.fef78c0a.png": "/static/media/man.fef78c0a.png",
+    "static/media/ph-1.38c801a0.png": "/static/media/ph-1.38c801a0.png",
+    "static/media/phone.1a4c7f0a.svg": "/static/media/phone.1a4c7f0a.svg",
+    "static/media/shoe-store.fc8be8b0.png": "/static/media/shoe-store.fc8be8b0.png",
+    "static/media/index.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/twitter.1a832bb1.svg": "/static/media/twitter.1a832bb1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5415940d.js",
+    "static/css/2.0c6d2c39.chunk.css",
+    "static/js/2.eab7d56c.chunk.js",
+    "static/css/main.b2af66ac.chunk.css",
+    "static/js/main.1d8844a8.chunk.js"
+  ]
+}
