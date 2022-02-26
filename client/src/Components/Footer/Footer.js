@@ -29,7 +29,7 @@ const Footer = () => {
                     <Linkedin className={styles.icon} />
                 </a>
             </div>
-            <p>Copyright 2021 &copy; Ahmed Faheem. All rights Reserved.</p>
+            <p>Copyright 2022 &copy; Ahmed Faheem Malick. All rights Reserved.</p>
         </footer>
     )
 }

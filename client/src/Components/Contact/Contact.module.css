@@ -31,10 +31,11 @@
 }
 
 .card_wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   grid-gap: 3rem;
   margin-bottom: 4rem;
+  justify-content: space-between;
+  padding: 0 3rem;
 }
 
 .card {
@@ -94,15 +95,12 @@
 }
 
 .textarea_wrap textarea {
-  height: 140px;
-  padding: 0.5rem;
-  border: 1px solid #f2f2f2;
-  outline: none;
-  font-size: 0.9rem;
-}
-
-.textarea_wrap textarea {
+  resize: none;
   font-family: "Lato", sans-serif;
+  height: 160px;
+  padding: 0.5rem;
+  border: 2px solid #f2f2f2;
+  outline: none;
   font-size: 0.9rem;
 }
 

@@ -1,14 +1,14 @@
 import { useState } from "react"
 import logo from "../../Images/logo.svg"
-import hamberger_1 from "../../Images/hamberger-1.svg"
-import hamberger_2 from "../../Images/hamberger-2.svg"
+import hamburger_1 from "../../Images/hamburger-1.svg"
+import hamburger_2 from "../../Images/hamburger-2.svg"
 import styles from "./Header.module.css"
 
 const Header = () => {
 
     const [nav, setNav] = useState("close")
 
-    const toogleNav = () => {
+    const toggleNav = () => {
         nav === "close" ? setNav("open") : setNav("close")
     }
 
@@ -23,7 +23,7 @@ const Header = () => {
                             </a>
                         </div>
                         <div>
-                            <img className={styles.hamberger} src={hamberger_1} onClick={toogleNav} alt="hamberger" />
+                            <img className={styles.hamburger} src={hamburger_1} onClick={toggleNav} alt="hamburger" />
                         </div>
                     </div>
                     <div className={`${nav === "open" ? styles.big_open_nav : styles.hide}`}>
@@ -32,13 +32,13 @@ const Header = () => {
                                 <li><a href="#home">HOME</a></li>
                                 <li><a href="#about">ABOUT</a></li>
                                 <li><a href="#services">SERVICES</a></li>
-                                <li><a href="#clients">TESTIMONIALS</a></li>
-                                <li><a href="#works">WORKS</a></li>
+                                <li><a href="#testimonials">TESTIMONIALS</a></li>
+                                <li><a href="#works">MY WORKS</a></li>
                                 <li><a href="#contact">CONTACT</a></li>
                             </ul>
                         </div>
                         <div>
-                            <img className={styles.hamberger} src={hamberger_2} onClick={toogleNav} alt="hamberger" />
+                            <img className={styles.hamburger} src={hamburger_2} onClick={toggleNav} alt="hamburger" />
                         </div>
                     </div>
                 </div>
@@ -52,8 +52,8 @@ const Header = () => {
                         <a href="#home">HOME</a>
                         <a href="#about">ABOUT</a>
                         <a href="#services">SERVICES</a>
-                        <a href="#clients">TESTIMONIALS</a>
-                        <a href="#works">WORKS</a>
+                        <a href="#testimonials">TESTIMONIALS</a>
+                        <a href="#works">MY WORKS</a>
                         <a href="#contact">CONTACT</a>
                     </div>
                 </div>

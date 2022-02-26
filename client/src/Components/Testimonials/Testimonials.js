@@ -15,7 +15,7 @@ const Testimonial = () => {
     return (
         <div id="testimonials" className={styles.testimonials}>
             <div className={styles.container}>
-                <h1 className={styles.head}><span>My</span> Client Testimonials</h1>
+                <h1 className={styles.head}><span>My</span> Testimonials</h1>
                 <p className={styles.para}>What my clients say about me.</p>
                 <Slider {...settings} className={styles.slider}>
                     <div className={styles.slide}>

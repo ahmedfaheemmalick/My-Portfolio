@@ -19,8 +19,20 @@ const About = () => {
             </div>
             <div data-aos="fade-down" className={styles.right}>
                 <h1 className={styles.head_1}>About <span>Me</span></h1>
-                <h3 className={styles.head_2}>Hello! I"m Ahmed Faheem</h3>
-                <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ducimus voluptas, temporibus iste odio impedit quasi explicabo similique magni facere, autem incidunt velit commodi illum placeat minima exercitationem provident nobis odit ipsum veniam maxime! Nulla fuga placeat magni hic nihil? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dolor fugit recusandae dignissimos, molestiae natus iure ipsam aliquam officiis quam. </p>
+                <h3 className={styles.head_2}>Hello! My self Ahmed Faheem Malick</h3>
+                <p className={styles.para}>
+                    I'm a Full Stack Web Developer with a passion for creating beautiful and intuitive user experiences. I have a strong background in both front-end and back-end development. I have over two years of experience in developing sites using edge cutting technologies like Javascript, Typescript, React, Gatsby, Graphql, Node.js, Express Js, MongoDB, FaunaDB, and more.
+
+                    <br />
+                    <br />
+
+                    Being a self-taught developer and self learner, I'm always ready to learn new tech wave. I'm always looking for new challenges and opportunities to grow my skills.
+
+                    <br />
+                    <br />
+
+                    To conclude, I would say that I'm a creative, hard-working, and dedicated individual. I'm a team player who is always willing to learn new technologies and improve my skills.
+                </p>
                 <div className={styles.socials}>
                     <a href="https://github.com/ahmedfaheemmalick">
                         <Github className={styles.icon} />

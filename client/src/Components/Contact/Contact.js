@@ -68,7 +68,7 @@ const Contact = () => {
         <div id="contact" className={styles.contact}>
             <div className={styles.container}>
                 <h1 className={styles.head}>Contact <span>Me</span></h1>
-                <p className={styles.para}>Let"s talk business.</p>
+                <p className={styles.para}>Let's talk business.</p>
                 <div data-aos="fade-down" className={styles.card_wrapper}>
                     <div className={styles.card}>
                         <img className={styles.img} src={phone} alt="Phone" />
@@ -87,7 +87,7 @@ const Contact = () => {
                         </h6>
                     </div>
                 </div>
-                <form onSubmit={e => sendEmail(e)}>
+                <form data-aos="fade-up" onSubmit={e => sendEmail(e)}>
                     <div className={styles.input_wrap}>
                         <div>
                             <input

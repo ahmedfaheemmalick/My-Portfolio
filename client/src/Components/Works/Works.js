@@ -15,11 +15,11 @@ const Works = () => {
         <div id="works" className={styles.work}>
             <div className={styles.container}>
                 <h1 className={styles.head}><span>My</span> Works</h1>
-                <p className={styles.para}>What I have done through this career</p>
+                <p className={styles.para}>Some glimpse of my work</p>
                 <div className={styles.card_wrapper}>
                     <div className={styles.card}>
                         <div className={styles.overlay}>
-                            <h1>Covid-19 App</h1>
+                            <h1>Covid-19</h1>
                             <div className={styles.icons}>
                                 <a href="http://a-covid-19-tracker-app.surge.sh" target="_blank" rel="noreferrer">
                                     <Link className={styles.icon} />
@@ -33,7 +33,7 @@ const Works = () => {
                     </div>
                     <div className={styles.card}>
                         <div className={styles.overlay}>
-                            <h1>Shoe Store App</h1>
+                            <h1>Shoe Store</h1>
                             <div className={styles.icons}>
                                 <a href="http://a-shoe-store-app.surge.sh" target="_blank" rel="noreferrer">
                                     <Link className={styles.icon} />
