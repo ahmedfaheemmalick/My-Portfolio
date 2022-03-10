@@ -82,6 +82,10 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .card_3 {
+    margin-top: -5rem;
+  }
 }
 
 @media (max-width: 1020px) {

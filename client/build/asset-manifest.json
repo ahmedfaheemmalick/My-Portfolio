@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e1d4a34.chunk.css",
+    "main.css": "/static/css/main.28fda1c0.chunk.css",
     "main.js": "/static/js/main.9ab31d7d.chunk.js",
     "main.js.map": "/static/js/main.9ab31d7d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5415940d.js",
@@ -10,7 +10,7 @@
     "static/js/2.9fdcb7ec.chunk.js.map": "/static/js/2.9fdcb7ec.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.0c6d2c39.chunk.css.map": "/static/css/2.0c6d2c39.chunk.css.map",
-    "static/css/main.3e1d4a34.chunk.css.map": "/static/css/main.3e1d4a34.chunk.css.map",
+    "static/css/main.28fda1c0.chunk.css.map": "/static/css/main.28fda1c0.chunk.css.map",
     "static/js/2.9fdcb7ec.chunk.js.LICENSE.txt": "/static/js/2.9fdcb7ec.chunk.js.LICENSE.txt",
     "static/media/covid-19.bed9ee69.png": "/static/media/covid-19.bed9ee69.png",
     "static/media/facebook.8db60799.svg": "/static/media/facebook.8db60799.svg",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.5415940d.js",
     "static/css/2.0c6d2c39.chunk.css",
     "static/js/2.9fdcb7ec.chunk.js",
-    "static/css/main.3e1d4a34.chunk.css",
+    "static/css/main.28fda1c0.chunk.css",
     "static/js/main.9ab31d7d.chunk.js"
   ]
 }
