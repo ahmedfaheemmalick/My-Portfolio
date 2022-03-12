@@ -40,17 +40,25 @@
 }
 
 .slide img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   margin-bottom: 2rem;
+  border-radius: 100%;
 }
 
 .slide p {
+  font-size: 16px;
   font-family: "Lato" sans-serif;
   color: #898989;
   margin-bottom: 1rem;
 }
+
+.slide p > span {
+  font-size: 16px;
+  color: #3dcfd3;
+}
+
 .slide span {
   font-size: 0.8rem;
   margin-bottom: 3rem;
